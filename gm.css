@@ -1,0 +1,465 @@
+#bod{
+    margin: 0%; 
+    padding: 0%;
+    background-image: url(346456.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 22px;
+
+}
+
+.container{
+    display: grid;
+    width: 90%; 
+    margin: auto;
+    grid-template-areas: 
+    "he"
+    "lo"
+    "na"
+    "co"
+    ;
+
+    grid-gap:10px;
+}
+
+/*------header style----------*/
+
+.header{
+    grid-area: he;
+    background-color:rgba(0, 0, 0, 0.541);
+    opacity: 60px;
+    display: grid;
+    grid-template-areas: 
+    "dh2 dh2 dh2 dh"
+    ;
+}
+.header svg{
+    width: 4%;
+    background-color: white;
+    border-radius: 50%;
+    padding: 0.4%;
+    margin: .7%;
+    margin-top: 4%;
+} 
+#dhe{
+    grid-area: dh;
+    width: 90px;
+    height: 50px;
+}
+#dhe button{
+    width: 90px;
+    height: 50px;
+    color: aliceblue;
+    background-color:rgba(240, 9, 9, 0.644) ;
+    margin: auto;
+}
+#dhe button:hover{
+    background-color: red;
+}
+#dhe2{
+    grid-area: dh2;
+    width: 400px;
+    height: 50px;
+    margin: auto;
+}
+
+/*------logo style----------*/
+
+.logo{
+    grid-area: lo;
+    font-family:monospace;
+}
+#logs{
+    color: rgb(221, 14, 14);   
+}
+
+/*------navbar style----------*/
+
+.navbar{
+    grid-area: na;
+    background-color:rgba(182, 42, 42, 0.541);
+
+
+}
+.navbar a { 
+    text-decoration:none;
+    color: aliceblue;
+    padding:1%;   padding-left: 2%; 
+
+
+}
+#h:hover{ 
+    background-color: red;
+    border-radius: 10px 10px 10px 10px;
+}
+#d1{
+    float: left;
+    width:70% ;
+}
+#d2{
+    width: 2.5%;
+    height: 30px;
+    float: right;
+    margin-right: 2%;
+    margin-bottom: 1%;
+    background-color:aliceblue;
+}
+#d2:hover{
+    background-color:gray;
+}
+#sv{
+    width:15px ;
+    margin:6px;
+}
+
+
+/*----------------------------content style---------------------*/
+
+.content{
+    grid-area: co;
+    display: grid; 
+    grid-template-areas:
+    "d"
+    "d2"
+    ;
+}
+#dc{
+    width: 500px;
+    height: 300px;
+    padding:2%;
+    grid-area: d;
+}
+#s2{
+    font-size:2.5em;
+}
+#s1{
+    font-size:1.2em;
+    color: red;
+}
+#dc button{
+    width: 150px;
+    height: 50px;
+    border-radius: 5%;
+    color: aliceblue;
+    background-color:rgba(219, 19, 19, 0.541) ;
+}
+#dc button:hover{
+    background-color: red;
+}
+#dc1{
+    width: 90%; margin: auto;
+    height: 23em;
+    border-radius: 30px 30px 30px 30px;
+    background-color:rgba(160, 20, 20, 0.699);
+    grid-area: d2;
+    display: grid;
+    grid-template-areas: 
+    "b b2 b3"
+    ;
+    box-shadow:gray 0px 0px 0px 2px ; 
+
+}
+#dc1 svg{
+    width: 6%;
+}
+#box{
+   grid-area: b;
+}
+#box2{
+    grid-area: b2;
+
+}
+#box3{
+    grid-area: b3;
+
+}
+#dc1 a{
+    width: 90%;
+    height: 20em;
+    margin: auto;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    color: rgb(15, 14, 14);
+    width: 90%;
+    height: 20em;
+    margin: auto;
+    background-color: brown;
+  }
+  
+  .card:hover {
+    box-shadow: 3px 8px 16px 8px rgba(255, 244, 244, 0.2);
+    width: 95%;
+  }
+  
+  img {
+    width: 96%;
+    height: 12em;
+    border-radius: 5px 5px 0 0;
+    padding: 2%;
+  }
+  .word{
+    padding-left: 3%;
+  }
+ 
+
+
+
+
+
+  /*--------------------------------------------login style------------------------------------------------------*/
+
+
+.logcontent{
+    width: 40%;
+    height:50vh;
+    background-color:rgba(160, 20, 20, 0.699);
+    border-radius: 10px 10px 10px 10px;
+    margin: auto;
+    box-shadow:gray 0px 0px 0px 2px ; 
+    font-weight:bolder; font-family:serif; text-shadow:gray 5px 5px 5px ;text-align: center;
+    font-size:22px ;
+}
+
+.logcontent:hover{
+    box-shadow: 0 8px 16px 0 rgba(240, 230, 230, 0.2);
+
+}
+#but{
+    width: 50%;
+    height:30vh;
+    background-color: rgb(255, 109, 109);
+    border: 1px solid  rgb(138, 174, 253);
+    border-radius: 10px 10px 10px 10px ;
+    color: black;
+}
+#but:hover{
+    background-color: rgb(248, 149, 149);
+}
+.inlo{
+    box-shadow:gray 2px 2px 2px ; width: 30%;
+}
+.inlo:focus{
+    width: 50%;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(112, 104, 104);
+}
+
+/*---------------------------------------signup style-------------------------------*/
+.signcontent{
+    height: 100vh; 
+}
+#sign{
+    width: 40%;
+    height:max-content;
+    background-color:rgba(160, 20, 20, 0.699);
+    border-radius: 10px 10px 10px 10px;
+    margin: auto;
+    box-shadow:gray 0px 0px 0px 2px ; 
+    font-weight:bolder; font-family:serif; text-shadow:gray 5px 5px 5px ;text-align: center;
+
+}
+#sign:hover{
+
+    box-shadow: 0 8px 16px 0 rgba(240, 230, 230, 0.2);
+
+}
+#but{
+    width: 15%;
+    height: 25px;
+    background-color: rgb(255, 109, 109);
+    border: 1px solid  rgb(138, 174, 253);
+    color: black;
+    margin: 1%;
+
+}
+.in{
+    box-shadow:gray 2px 2px 2px ; 
+    margin: auto; width: 30%;
+}
+.in:focus{
+    width: 50%;
+
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+/*------ media query style--------*/
+@media screen and (min-device-width : 200px) and (max-device-width : 480px){
+    #bod{
+     font-size: 18px;
+    }
+    .navbar a { 
+     font-size: small;
+    }
+    #d1{
+        float: left;
+        width:90% ;
+    }
+    #d2{
+        width: 4%;
+        height:max-content;
+        margin-bottom: 6%;
+    }
+    #sv{
+        width:60% ;margin:auto; padding-left: 15%;
+    }
+    #dc1{
+        width: 80%; margin: auto;
+        height:250vh;
+        border-radius:30px 30px 30px 30px;
+        background-color:rgba(160, 20, 20, 0.699);
+        grid-area: d2;
+        display: grid;
+        grid-template-areas: 
+        "b"
+        "b2"
+        "b3"
+        ;
+        grid-gap:3vh;
+        box-shadow:gray 0px 0px 0px 2px ; 
+    
+    }
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        border-radius: 5px;
+        color: rgb(15, 14, 14);
+        width: 70%;
+        height: 20em;
+        margin: auto;
+        background-color: brown;
+    }
+
+    /*---------------------------------------login style-------------------------------*/
+    .login-body{
+        height: 80vh;
+    }
+   .logcontent{
+     width: 70%;
+     height: max-content;
+     border-radius: 5%;
+     font-size:18px ;
+   }
+   #but{
+     width: 30%;
+   }
+
+   /*---------------------------------------signup style-------------------------------*/
+ .signcontent{
+     height: 130vh; 
+     font-size:18px ;
+    }
+  #sign{
+     width: 80%;
+     height:max-content;
+     border-radius:30px 30px 30px 30px;
+
+    }
+  #but{
+     width: 30%;
+     height: 25px;
+    }
+  
+}
+
+@media screen and (min-device-width : 480px) and (max-device-width : 1024px){
+    #bod{
+        font-size: 18px;
+    }
+    .navbar a { 
+        font-size: small;
+    }
+    #d1{
+           float: left;
+           width:90% ;
+    }
+    #d2{
+           width: 4%;
+           height:max-content;
+           margin-bottom: 6%;
+    }
+    #sv{
+           width:60% ;margin:auto; padding-left: 15%;
+    }
+    #dc1{
+           width: 80%; margin: auto;
+           height:250vh;
+           border-radius:30px 30px 30px 30px;
+           background-color:rgba(160, 20, 20, 0.699);
+           grid-area: d2;
+           display: grid;
+           grid-template-areas: 
+           "b"
+           "b2"
+           "b3"
+           ;
+           grid-gap:3vh;
+           box-shadow:gray 0px 0px 0px 2px ; 
+       
+    }
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        border-radius: 5px;
+        color: rgb(15, 14, 14);
+        width: 70%;
+        height: 20em;
+        margin: auto;
+        background-color: brown;
+    }
+
+
+    /*---------------------------------------login style-------------------------------*/
+
+    .login-body{
+        height: 80vh;
+    }
+   .logcontent{
+     width: 70%;
+     height: max-content;
+     background-color:rgba(160, 20, 20, 0.699);
+     border-radius: 5%;
+     margin: auto;
+     box-shadow:gray 0px 0px 0px 2px ; 
+     font-weight:bolder; font-family:serif; text-shadow:gray 5px 5px 5px ;text-align: center;
+     font-size:18px ;
+   }
+   #but{
+     width: 20%;
+   }
+    
+   /*---------------------------------------signup style-------------------------------*/
+   .signcontent{
+    height: 130vh; 
+    font-size:18px ;
+   }
+ #sign{
+    width: 80%;
+    height:max-content;
+    border-radius:30px 30px 30px 30px;
+
+   }
+ #but{
+    width: 30%;
+    height: 25px;
+   }
+ 
+
+}
+
+  
+
+
